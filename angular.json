@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ng5"
+    }
+  },
+  "defaultProject": "ng5",
+  "cli": {
+    "analytics": "65eb7a0e-91be-4ab0-810a-1e9361adf3eb"
+  }
 }
