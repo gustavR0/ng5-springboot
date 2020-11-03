@@ -1,10 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { DataService } from '../data.service';
-
-
-
-
 @Component({
   selector: 'app-about',
   templateUrl: './about.component.html',
@@ -25,5 +21,4 @@ export class AboutComponent implements OnInit {
   sendMeHome(){
     this.router.navigate(['']);
   }
-
 }
